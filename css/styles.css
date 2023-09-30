@@ -32,6 +32,7 @@ img{
 }
 .header{
     border-bottom: 1px solid #e7e9fc;
+    box-shadow:  0px 2px 1px rgba(46, 47, 66, 0.08),0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .container{
     width: 1470px;
@@ -45,6 +46,19 @@ img{
     align-items: center;
     padding: 0 15px;
     width: 1470px;
+}
+.item-nav{
+    position: relative;
+    color: #404bbf;
+}
+.item-nav::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;background-color:  #404bbf;
+    border-radius: 2px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .stud-sect{
     background-image:linear-gradient(to bottom, 
