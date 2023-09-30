@@ -47,27 +47,21 @@ img{
     padding: 0 15px;
     width: 1470px;
 }
-.item-nav{
-    position: relative;
-    color: #404bbf;
-}
-.item-nav::after{
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    height: 4px;background-color:  #404bbf;
-    border-radius: 2px;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+
 .stud-sect{
     background-image:linear-gradient(to bottom, 
     rgba(46, 47, 66, 0.70),
     rgba(46, 47, 66, 0.70)
     ),
-     url(/images/backdround-img.png);
+     url(/images/people-office-min.jpg);
+     max-width: 1440px;
     background-repeat:no-repeat;
-    background-size: 100% 100%;
+    background-size:cover;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 188px 0;
+    background-position: center;
+    
+
 }
 .cont-stud-sect{
     flex-shrink: 0;
@@ -86,6 +80,7 @@ img{
     gap: 40px;
     margin-left: 76px;
 }
+
 .list-adr{
     display: flex;
     gap: 40px;
@@ -113,6 +108,17 @@ img{
     color: #2E2F42;
     font-weight: 500;
     padding: 24px 0;
+    position: relative;
+    color: #404BBF;
+}
+.link-nav::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;background-color:  #404bbf;
+    border-radius: 2px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-nav:hover,
 .link-nav:focus{
@@ -156,16 +162,13 @@ button:focus{
 .link-adr{
     color: #434455 ;
     font-weight: 500;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-adr:hover,
 .link-adr:focus{
     color: #404BBF;
 }
-.stud-sect{
-    background-color: #2e2f42;
-    padding: 188px 0;
 
-}
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -217,8 +220,7 @@ button:focus{
     background-color: #F4F4FD ;
     padding: 120px 0
 }
-.cont-team{ 
-}
+
 .title-team{
     font-size: 36px;
     line-height: 1.11;
