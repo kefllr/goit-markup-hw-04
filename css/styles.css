@@ -378,7 +378,9 @@ button:focus{
     border: 1px solid #e7e9fc;
     border-top: none; 
 }
-    
+
+
+
 
 
 
@@ -415,4 +417,19 @@ button:focus{
 }
 .adr{
     font-style: normal;
+}
+.cont-footer{
+    display: flex;
+}
+.cont-footer-text{
+    margin-right: 120px;
+}
+.cont-footer-social-text{
+    font-weight: 500px;
+    font-size: 16px ;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+
 }
