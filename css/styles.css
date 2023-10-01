@@ -15,6 +15,8 @@ color: #434455 ;
 }
 a{
     text-decoration: none;
+    width: 100%;
+    height: 100%;
 }
 ul, ol{
     list-style-type: none;
@@ -54,7 +56,7 @@ img{
     rgba(46, 47, 66, 0.70)
     ),
      url(../images/people-office-min.jpg);
-     max-width: 1440px;
+     max-width: 1470px;
     background-repeat:no-repeat;
     background-size:cover;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -63,7 +65,6 @@ img{
 }
 .cont-stud-sect{
     flex-shrink: 0;
-    width: 1158px;
     padding: 188px auto;
 
 }
@@ -102,12 +103,12 @@ img{
     text-transform: uppercase;
     line-height: 1.17;
 }
+
 .link-nav{
     color: #2E2F42;
     font-weight: 500;
     padding: 24px 0;
     position: relative;
-    color: #404BBF;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-nav::after{
@@ -272,7 +273,7 @@ button:focus{
 }
 .link-team-social{
     width: 100%;
-    height: 100%;
+    height: 100%;       
     background-color: #4D5AE5;
     border-radius: 50%;
     display: flex;
@@ -304,14 +305,6 @@ button:focus{
     text-align: center;
     margin-bottom: 8px;
 }
-
-
-
-
-
-
-
-
 .title-port{
     font-size: 36px;
     line-height: 1.11;
@@ -375,20 +368,6 @@ button:focus{
     border: 1px solid #e7e9fc;
     border-top: none; 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .footer{
     background-color: #2e2f42;
     padding: 100px 0 
@@ -423,13 +402,12 @@ button:focus{
     margin-right: 120px;
 }
 .cont-footer-social-text{
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 16px ;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
     margin-bottom: 16px;
-
 }
 .foot-list{
     gap: 16px;
