@@ -252,13 +252,13 @@ button:focus{
 
 }
 .item-social-team .link-team-social{
-    border-radius: 50px;
     width: 40px;
     height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #4D5AE5;
+    border-radius: 50%;
     padding: 12px;
 }
 .item-social-team .link-team-social{
