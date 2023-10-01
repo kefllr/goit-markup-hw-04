@@ -252,8 +252,6 @@ button:focus{
 
 }
 .item-social-team .link-team-social{
-    width: 100%;
-    height: 100%;
     border-radius: 50px;
     width: 40px;
     height: 40px;
@@ -262,6 +260,10 @@ button:focus{
     align-items: center;
     background-color: #4D5AE5;
     padding: 12px;
+}
+.item-social-team .link-team-social{
+    width: 100%;
+    height: 100%;
 }
 .link-team-social {
     background-color: #4D5AE5;
